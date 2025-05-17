@@ -51,3 +51,10 @@ All derivative works must remain open and shared under the same terms.
 ---
 
 > 🔗 Visit [hydod.com](http://hydod.com) for schematics, experiments, updates, and videos.
+## 📘 Read the Book
+
+*No Carbon Required* explores the history, science, and suppressed breakthroughs in hydrogen-based energy systems—laying the foundation for the HYDOD project.
+
+🛒 [Available on Amazon](https://mybook.to/XtMLF)
+
+Coming soon: *Burning Water* – a hands-on practical guide to building and testing hydrogen-on-demand systems.
