@@ -1,0 +1,7 @@
+# For Arduino and Pi development
+*.hex
+*.bin
+*.o
+*.pyc
+*.DS_Store
+build/
