@@ -1,60 +1,22 @@
-# HYDOD - Hydrogen On Demand
+# HYDODrive V2
 
-**HYDOD** is a fully open-source, community-led project to develop accessible, efficient hydrogen-on-demand (HOD) systems using Arduino, Raspberry Pi, and open scientific methods.
+HYDODrive V2 is an evolution of the original open-source hydrogen-on-demand driver board,
+incorporating waveform resonance control, optional audio amplifier stages, and improved modular scalability.
 
----
+For full details, see `DISCLOSURE.md`.
 
-## 🔓 Public Declaration
+## Key Features
 
-We, the creators of HYDOD, commit to:
+- Modular CNANCNANCN... drycell compatibility
+- 3-phase waveform generation (Raspberry Pi or Arduino)
+- Optional audio amplifier stage
+- Auto-tuning ready (PLL capable)
+- KiCad schematics & Gerbers included
 
-- Never patent this technology or allow it to be monopolized.
-- Keep all designs, schematics, firmware, and data openly available.
-- Encourage widespread adoption, adaptation, and improvement.
-- Oppose any attempt to suppress or commercialize this work in a closed form.
+## How to Use
 
-**HYDOD belongs to everyone.**
-
----
-
-## 🔧 What It Is
-
-HYDOD is an experimental platform combining:
-- Resonant electrolysis and water-splitting techniques
-- Open-source electronics (Arduino, Raspberry Pi)
-- PCB-based driver boards and hydrogen cell integration
-- Optional blockchain-based logging for experiment validation
-
----
-
-## 🌍 Get Involved
-
-We welcome:
-- Builders & hackers
-- Scientists & skeptics
-- Engineers, students, educators
-- Anyone passionate about clean energy
-
-You can:
-- Ask questions in [Discussions](https://github.com/YOUR-USERNAME/HYDOD/discussions)
-- Submit issues and bug reports
-- Share your experiments and improvements
-- Sponsor or donate to support development
-
----
-
-## 📜 License
-
-HYDOD is licensed under the **GNU General Public License v3.0**.  
-All derivative works must remain open and shared under the same terms.
-
----
-
-> 🔗 Visit [hydod.com](http://hydod.com) for schematics, experiments, updates, and videos.
-## 📘 Read the Book
-
-*No Carbon Required* explores the history, science, and suppressed breakthroughs in hydrogen-based energy systems—laying the foundation for the HYDOD project.
-
-🛒 [Available on Amazon](https://mybook.to/XtMLF)
-
-Coming soon: *Burning Water* – a hands-on practical guide to building and testing hydrogen-on-demand systems.
+1. Clone or download this repository.
+2. Open the KiCad project to view/modify the schematic or PCB.
+3. Flash the included waveform code to your SBC or microcontroller.
+4. Wire up the system following the connection diagram.
+5. Use the simulation files for waveform and resonance testing.
