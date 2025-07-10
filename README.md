@@ -1,97 +1,57 @@
-# HYDODrive V2
+# HYDODrive Pi v1 – Raspberry Pi-Based Hydrogen-On-Demand Driver Board
 
-HYDODrive V2 is an evolution of the original open-source hydrogen-on-demand driver board,
-incorporating waveform resonance control, optional audio amplifier stages, and improved modular scalability.
+HYDODrive Pi v1 is an open-source driver board designed to generate efficient resonant signals for a drycell electrolysis stack using a Raspberry Pi. This board focuses on signal generation, timing, and control — forming the heart of a modular hydrogen-on-demand system for research, education, and clean energy experimentation.
 
-For full details, see `DISCLOSURE.md`.
+## ⚡ Key Features
 
-## Key Features
+- Raspberry Pi (GPIO) compatibility
+- Single-phase driver stage with support for 3-phase expansion
+- Drives a Cathode–Neutral–Anode (CNA) drycell configuration
+- Resonant LC tank circuit operation (based on original patents)
+- Screw terminal outputs for cell array and power
+- Modular design: expandable per drycell group
+- Supports signal-level MOSFET switching for PWM/resonance
+- Plug-and-play with optional HAT integration
 
-- Modular CNANCNANCN... drycell compatibility
-- 3-phase waveform generation (Raspberry Pi or Arduino)
-- Optional audio amplifier stage
-- Auto-tuning ready (PLL capable)
-- KiCad schematics & Gerbers included
-# HYDODrive V2 – Audio-Amplifier Resonant Electrolyser
+## 📐 Intended Use
 
-**Open Hydrogen Project • Humanitarian Release**
+This board is designed for:
 
-HYDODrive V2 builds upon the success of our original drycell driver system by exploring a historically verified variation: the use of **audio-frequency amplification** for water-splitting. Inspired by Dr. Henry Puharich’s patent [US3629521A], this version delivers resonant waveforms to a drycell electrolyser stack via a standard **low-impedance audio amplifier**, in place of digital gate-driven MOSFET arrays.
+- Driving resonant drycell electrolysers (CNA stack)
+- Testing waveform response (square wave, PWM, sine mod)
+- Experimenting with hydrogen production efficiency
+- Demonstrating pulse-resonance electrolysis for educational purposes
 
-## 🎯 Purpose
+## 🧠 Based On
 
-To broaden the accessibility of resonant electrolysis systems for experimentation, prototyping, and humanitarian deployment — especially in low-tech or off-grid environments.
+Inspired by:
 
-This approach uses:
-- A **3-phase waveform generator** (RPi/Arduino/other SBC)
-- A standard **audio amplifier** (e.g. 15 W/channel stereo amp)
-- A **resonant drycell array** (CNANCNANCN…)
-- Tuned LC tank circuit on the output line
-- Optional signal shaping/filtering
+- US Patent US20050246059A1 (Stanley Meyer)
+- Audio-frequency and PLL-controlled experiments (e.g. Puharich, Lawton)
+- Practical hydrogen-on-demand implementations (Boyce, etc.)
 
-By modulating and shaping the signal appropriately, the amplifier drives resonance in the water cell stack — *not dissimilar to acoustic excitation* — producing electrolysis at low current with improved efficiency.
+## 📂 Included
 
----
+- KiCad schematic and PCB layout files (`.kicad_sch`, `.kicad_pcb`)
+- Pre-routed board files and netlists
+- Gerber files for JLCPCB fabrication
+- Simulation template for 1-stage in LTSpice
+- Basic GPIO code examples (Python, Arduino)
+- Project BOM with part numbers
+- Printable layout and connection diagrams
 
-## 🔧 Hardware Overview
+## 🧪 Simulation Support
 
-| Component         | Description                                               |
-|------------------|-----------------------------------------------------------|
-| Waveform Source  | Pi HAT, Arduino Leonardo, Teensy, etc. (3-phase generator)|
-| Amplifier        | Stereo or mono low-impedance audio amplifier              |
-| Output Filtering | LC tank, snubber, flyback diode, phase tuning             |
-| Drycell Stack    | CNANCNANCN… symmetric stainless steel drycell             |
-| Optional         | Audio transformer for galvanic isolation                  |
+The single-stage simulation (fixed 68 µF, 1.7 mH) models the resonant characteristics of one driver cell, useful for tuning and waveform testing.
 
----
+## 🤝 Contributions
 
-## ⚠️ Variation Notice
+This is an active open hardware project. You are encouraged to fork, clone, and contribute improvements.
 
-> This design is a **humanitarian, open-source variation** of the original HYDODrive concept, built on public-domain principles as evidenced in US Patents including **US3629521A (Puharich)** and **US20050246059A1 (Meyer)**.
+## 🔓 License
 
-The addition of audio amplification as the signal delivery method shall be recognized as an *open derivative implementation*, not subject to patenting or restriction by any individual, group, or corporation. It is irrevocably released to the public domain under the following terms.
+This repository is released under the CERN-OHL-W license (or your specified license), with **full open-source disclosure** in `DISCLOSURE.md`. It is intended to benefit humanity and must remain freely accessible.
 
----
+## 📍 Repository
 
-## 📜 Licensing and Disclosure
-
-### License: [CERN-OHL-S v2](https://ohwr.org/cern_ohl_s_v2.txt) + Humanitarian Clause
-
-This project and all variations are released under the **CERN Open Hardware License – Strongly Reciprocal v2**.  
-In addition:
-
-> ❗ **HUMANITARIAN ADDENDUM**  
-> This project — including any amplifier-based variation — may **not be patented or sold under exclusive license**. It must remain **open, replicable, and free** for use in **research, education, and humanitarian applications**, especially those supporting **clean energy**, **safe water access**, or **climate-positive technologies**.
-
-By contributing to this repository, you agree to maintain this principle of universal access and community benefit.
-
----
-
-## 🧪 Current Status
-
-- ✅ Initial audio-amplifier prototype tested at 15 V, 468 Hz
-- ⚙️ Software generator under refinement (3-phase + sync pulse)
-- 🔄 Additional testing underway with variable tank circuits
-- 🔊 Acoustic resonance behavior under observation
-
----
-
-## 🤝 Contribute
-
-We welcome experimenters, engineers, and researchers of all backgrounds to fork, remix, and contribute.
-
----
-
-## 🌍 Let It Flow
-
-*Resonant water-splitting isn’t just efficient — it’s beautiful.*
-
-**HYDODrive – Open Hydrogen Project**
-
-## How to Use
-
-1. Clone or download this repository.
-2. Open the KiCad project to view/modify the schematic or PCB.
-3. Flash the included waveform code to your SBC or microcontroller.
-4. Wire up the system following the connection diagram.
-5. Use the simulation files for waveform and resonance testing.
+[https://github.com/PaulFrankAdams/HYDOD](https://github.com/PaulFrankAdams/HYDOD)
