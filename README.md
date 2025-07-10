@@ -50,7 +50,7 @@ This is an active open hardware project. You are encouraged to fork, clone, and 
 
 ## 🔓 License
 
-This repository is released under the CERN-OHL-W license (or your specified license), with **full open-source disclosure** in `DISCLOSURE.md`. It is intended to benefit humanity and must remain freely accessible.
+This repository is released under [GNU GPL v3](LICENSE-GPL.txt), with **full open-source disclosure** in `DISCLOSURE.md`. It is intended to benefit humanity and must remain freely accessible.
 
 ## License Summary
 
