@@ -52,6 +52,14 @@ This is an active open hardware project. You are encouraged to fork, clone, and 
 
 This repository is released under the CERN-OHL-W license (or your specified license), with **full open-source disclosure** in `DISCLOSURE.md`. It is intended to benefit humanity and must remain freely accessible.
 
+## License Summary
+
+- **HYDODrive v1** (Original version): Licensed under [GNU GPL v3](LICENSE-GPL.txt)
+- **HYDODrive v2** (Enhanced signal-processing version): Licensed under [CERN-OHL-S v2](HYDODrive_V2/LICENSE.txt)
+
+Both versions are open-source and intended to remain freely available for the benefit of all. See `DISCLOSURE.md` for additional protections.
+
+
 ## 📍 Repository
 
 [https://github.com/PaulFrankAdams/HYDOD](https://github.com/PaulFrankAdams/HYDOD)
