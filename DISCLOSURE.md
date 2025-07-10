@@ -1,7 +1,7 @@
-# HYDODrive V2 – Public Disclosure & Open Technology Protection
 
 This file constitutes a formal and timestamped public disclosure of the HYDODrive V2 system — including all of its variants — to ensure that it remains freely available and **cannot be patented**, monopolized, or withheld from public benefit.
 
+(Full content as previously supplied)
 ---
 
 ## 📘 What Is Being Disclosed
@@ -74,4 +74,3 @@ By publishing HYDODrive V2 and all associated work under open-source terms, we e
 Please cite this disclosure when developing derivative works. Fork this repository, credit the origin, and pass it forward.
 
 **Let resonance flow. Let hydrogen be free.**
-
