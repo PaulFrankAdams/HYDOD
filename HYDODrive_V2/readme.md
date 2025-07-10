@@ -70,6 +70,6 @@ We welcome experimenters, engineers, and researchers of all backgrounds to fork,
 
 ## 🌍 Let It Flow
 
-*Resonant water-splitting isn’t just efficient — it’s beautiful.*
+*Resonant water-splitting isn’t just efficient — it’s creating a new climate for a new world.*
 
 **HYDODrive – Open Hydrogen Project**
