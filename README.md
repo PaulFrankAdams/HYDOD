@@ -1,60 +1,65 @@
-# HYDOD - Hydrogen On Demand
+# HYDODrive Pi v1 – Raspberry Pi-Based Hydrogen-On-Demand Driver Board
 
-**HYDOD** is a fully open-source, community-led project to develop accessible, efficient hydrogen-on-demand (HOD) systems using Arduino, Raspberry Pi, and open scientific methods.
+HYDODrive Pi v1 is an open-source driver board designed to generate efficient resonant signals for a drycell electrolysis stack using a Raspberry Pi. This board focuses on signal generation, timing, and control — forming the heart of a modular hydrogen-on-demand system for research, education, and clean energy experimentation.
 
----
+## ⚡ Key Features
 
-## 🔓 Public Declaration
+- Raspberry Pi (GPIO) compatibility
+- Single-phase driver stage with support for 3-phase expansion
+- Drives a Cathode–Neutral–Anode (CNA) drycell configuration
+- Resonant LC tank circuit operation (based on original patents)
+- Screw terminal outputs for cell array and power
+- Modular design: expandable per drycell group
+- Supports signal-level MOSFET switching for PWM/resonance
+- Plug-and-play with optional HAT integration
 
-We, the creators of HYDOD, commit to:
+## 📐 Intended Use
 
-- Never patent this technology or allow it to be monopolized.
-- Keep all designs, schematics, firmware, and data openly available.
-- Encourage widespread adoption, adaptation, and improvement.
-- Oppose any attempt to suppress or commercialize this work in a closed form.
+This board is designed for:
 
-**HYDOD belongs to everyone.**
+- Driving resonant drycell electrolysers (CNA stack)
+- Testing waveform response (square wave, PWM, sine mod)
+- Experimenting with hydrogen production efficiency
+- Demonstrating pulse-resonance electrolysis for educational purposes
 
----
+## 🧠 Based On
 
-## 🔧 What It Is
+Inspired by:
 
-HYDOD is an experimental platform combining:
-- Resonant electrolysis and water-splitting techniques
-- Open-source electronics (Arduino, Raspberry Pi)
-- PCB-based driver boards and hydrogen cell integration
-- Optional blockchain-based logging for experiment validation
+- US Patent US20050246059A1 (Stanley Meyer)
+- Audio-frequency and PLL-controlled experiments (e.g. Puharich, Lawton)
+- Practical hydrogen-on-demand implementations (Boyce, etc.)
 
----
+## 📂 Included
 
-## 🌍 Get Involved
+- KiCad schematic and PCB layout files (`.kicad_sch`, `.kicad_pcb`)
+- Pre-routed board files and netlists
+- Gerber files for JLCPCB fabrication
+- Simulation template for 1-stage in LTSpice
+- Basic GPIO code examples (Python, Arduino)
+- Project BOM with part numbers
+- Printable layout and connection diagrams
 
-We welcome:
-- Builders & hackers
-- Scientists & skeptics
-- Engineers, students, educators
-- Anyone passionate about clean energy
+## 🧪 Simulation Support
 
-You can:
-- Ask questions in [Discussions](https://github.com/YOUR-USERNAME/HYDOD/discussions)
-- Submit issues and bug reports
-- Share your experiments and improvements
-- Sponsor or donate to support development
+The single-stage simulation (fixed 68 µF, 1.7 mH) models the resonant characteristics of one driver cell, useful for tuning and waveform testing.
 
----
+## 🤝 Contributions
 
-## 📜 License
+This is an active open hardware project. You are encouraged to fork, clone, and contribute improvements.
 
-HYDOD is licensed under the **GNU General Public License v3.0**.  
-All derivative works must remain open and shared under the same terms.
+## 🔓 License
 
----
+This repository is released under [GNU GPL v3](LICENSE-GPL.txt), with **full open-source disclosure** in `DISCLOSURE.md`. It is intended to benefit humanity and must remain freely accessible.
 
-> 🔗 Visit [hydod.com](http://hydod.com) for schematics, experiments, updates, and videos.
-## 📘 Read the Book
+## License Summary
 
-*No Carbon Required* explores the history, science, and suppressed breakthroughs in hydrogen-based energy systems—laying the foundation for the HYDOD project.
+- **HYDODrive v1** (Original version): Licensed under [GNU GPL v3](LICENSE-GPL.txt)
+- **HYDODrive v2** (Enhanced signal-processing version): Licensed under [CERN-OHL-S v2](HYDODrive_V2/LICENSE.txt)
 
-🛒 [Available on Amazon](https://mybook.to/XtMLF)
+Both versions are open-source and intended to remain freely available for the benefit of all. See `DISCLOSURE.md` for additional protections.
 
-Coming soon: *Burning Water* – a hands-on practical guide to building and testing hydrogen-on-demand systems.
+
+## 📍 Repository
+
+[https://github.com/PaulFrankAdams/HYDOD](https://github.com/PaulFrankAdams/HYDOD)
