@@ -26,9 +26,9 @@ This board is designed for:
 
 Inspired by:
 
-- US Patent US20050246059A1 (Stanley Meyer)
-- Audio-frequency and PLL-controlled experiments (e.g. Puharich, Lawton)
-- Practical hydrogen-on-demand implementations (Boyce, etc.)
+- US Patent US20050246059A1 (Abandoned) (Stephen Meyer, MLS-Hydroxyl Filling Station (MLS-HFS))
+- Audio-frequency and PLL-controlled experiments (e.g. Andrija Puharich, Dave Lawton)
+- Practical hydrogen-on-demand implementations (Bob Boyce, etc.)
 
 ## 📂 Included
 
